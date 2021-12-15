@@ -1,0 +1,102 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow: visible;
+	background-color: #f2f2f2;
+}
+
+.main_title{
+    margin-top: 30px;
+}
+.titlepage {
+    text-align: center;
+    justify-content: center;
+   display: flex;
+   margin-bottom: 30px;
+}
+
+.titlepage h2{
+    text-align: center;
+   justify-content: center;
+   color: #333;
+   text-transform: uppercase;
+   font-size: 2rem;
+}
+
+.tip_image{
+    float:left;
+    width: 20%;
+    height: 20%;
+}
+.tip_desc{
+    margin-left: 22%;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.tip_cont{
+    margin-top: 30px;
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 28vh;
+}
+h3{
+    font-weight:600;
+}
+
+.tip_cont:hover{
+    transform: scale(1.02);
+}
+
+.view_more{
+   
+    background: transparent;
+    border: 2px solid#2e00fd;
+    width: 10%;
+    color: #2e00fd;
+    font-size: 18px;
+    font-weight:400;
+}
+p{
+    font-size: 18px;
+     line-height: 20px;
+     color: black;
+	 text-align: left;
+}
+.more_text{
+    display: none;
+}
+.text.show-more .more_text{
+    display: inline;
+}
+.text.show-more .period{
+    display: none;
+}
+@media screen and (max-width:1000px){
+    .tip_image{
+        float:left;
+        width: 38%;
+        height: 38%;
+    }
+}
+@media screen and (max-width:700px){
+    .tip_image{
+        float: none;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .tip_desc{
+        margin-left: 1%;
+        font-size: 18px;
+        padding: 10px;
+    }
+    
+    .tip_cont{
+        margin-top: 30px;
+        box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
+        width: 100%;
+        height: 120vh;
+        align-items: center;
+    }
+}
+
